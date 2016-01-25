@@ -4,5 +4,4 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-find_greatest_product	C:\Users\davitim\Documents\projecteuler\prob8.py	/^def find_greatest_product(num, num_digits):$/;"	function	line:1
-long_num	C:\Users\davitim\Documents\projecteuler\prob8.py	/^    long_num = ("73167176531330624919225119674426574742355349194934"$/;"	variable	line:13
+math	C:\Users\davitim\Documents\projecteuler\prob9.py	/^import math$/;"	namespace	line:1
