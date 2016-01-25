@@ -23,13 +23,19 @@ def find_factors(num):
     return factors
 
 def evenly_divisible(lo, hi):
+    #first, find all factors for every number in the range
     factors = []
     for i in xrange(lo, hi):
         factors += find_factors(i)
         if is_prime_num(i):
             factors.append(i)
+        #remove all the ones, since they multiply out to just one
         factors = [x for x in factors if x != 1]
 
+    #the core logic is that you have to be able to make each of the numbers
+    #in the range by multiplyihg two or more numbers in a list of factors.
+    #if you can do that, you've found the minimum terms that can be multiplied
+    #to make the final product
     new_factors = []
     for i in xrange(lo, hi):
         for j in new_factors:
