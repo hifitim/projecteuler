@@ -22,23 +22,7 @@ def find_factors(num):
         factors.append(num/factors[i])
     return factors
 
-#works, super slow
 def evenly_divisible(lo, hi):
-    num = 1
-    while True:
-        if num % 5e6 == 0:
-            print num
-        divisible = True
-        for i in xrange(lo, hi+1):
-            if num % i != 0:
-                divisible = False
-                break
-        if divisible:
-            break
-        num += 1
-    return num
-
-def evenly_divisible2(lo, hi):
     factors = []
     for i in xrange(lo, hi):
         factors += find_factors(i)
@@ -63,4 +47,4 @@ def evenly_divisible2(lo, hi):
     return total_product
 
 if __name__ == "__main__":
-    print evenly_divisible2(1, 20)
+    print evenly_divisible(1, 20)
