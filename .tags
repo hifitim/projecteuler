@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+total	C:\Users\davitim\Documents\projecteuler\prob1.py	/^    total = 0$/;"	variable	line:2
+total	C:\Users\davitim\Documents\projecteuler\prob2.py	/^    total = 0$/;"	variable	line:2
+current	C:\Users\davitim\Documents\projecteuler\prob2.py	/^    current = 2$/;"	variable	line:3
+last	C:\Users\davitim\Documents\projecteuler\prob2.py	/^    last = 1$/;"	variable	line:4
+temp	C:\Users\davitim\Documents\projecteuler\prob2.py	/^        temp = last$/;"	variable	line:8
+last	C:\Users\davitim\Documents\projecteuler\prob2.py	/^        last = current$/;"	variable	line:9
+math	C:\Users\davitim\Documents\projecteuler\prob3.py	/^import math$/;"	namespace	line:1
+is_prime_num	C:\Users\davitim\Documents\projecteuler\prob3.py	/^def is_prime_num(num):$/;"	function	line:3
+factors_less_than_sqrt	C:\Users\davitim\Documents\projecteuler\prob3.py	/^def factors_less_than_sqrt(num):$/;"	function	line:10
+largest_prime_factor	C:\Users\davitim\Documents\projecteuler\prob3.py	/^def largest_prime_factor(num):$/;"	function	line:19
