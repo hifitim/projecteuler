@@ -44,23 +44,20 @@ def evenly_divisible2(lo, hi):
         factors += find_factors(i)
         if is_prime_num(i):
             factors.append(i)
+        factors = [x for x in factors if x != 1]
 
     new_factors = []
     for i in xrange(lo, hi):
-        print "i: " + str(i)
         for j in new_factors:
             if i % j == 0:
                 i /= j
         for j in factors:
             if i % j == 0:
-                print "adding: " + str(j)
                 new_factors.append(j)
                 i /= j
         if i != 1:
-            print "adding leftover: " + str(i)
             new_factors.append(i)
 
-    print new_factors
     total_product = 1
     for i in new_factors: total_product *= i
     return total_product
