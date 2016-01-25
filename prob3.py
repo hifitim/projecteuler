@@ -2,7 +2,7 @@ import math
 
 def is_prime_num(num):
     num_sqrt = int(math.ceil(math.sqrt(num)))
-    for i in xrange(2,num_sqrt):
+    for i in xrange(2,num_sqrt+1):
         if num % i == 0:
             return False
     return True
@@ -11,7 +11,7 @@ def factors_less_than_sqrt(num):
     largest = 0
     factors = []
     num_sqrt = int(math.ceil(math.sqrt(num)))
-    for i in xrange(2, num_sqrt):
+    for i in xrange(2, num_sqrt+1):
         if num % i == 0:
             factors.append(i)
     return factors
