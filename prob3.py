@@ -2,31 +2,35 @@ import math
 
 def isPrimeNum(num):
     num_sqrt = int(math.ceil(math.sqrt(num)))
-    for i in xrange(2,num_sqrt+1):
+    for i in xrange(2,num_sqrt):
         if num % i == 0:
             return False
     return True
 
-def largestPrimeFactorLessThanSqrt(num):
+def factorsLessThanSqrt(num):
     largest = 0
+    factors = []
     num_sqrt = int(math.ceil(math.sqrt(num)))
-    print "num: " + str(num)
-    print "num_sqrt: " + str(num_sqrt)
-    for i in xrange(2, num_sqrt+1):
+    for i in xrange(2, num_sqrt):
         if num % i == 0:
-            print "testing for prime: " + str(i)
-            if isPrimeNum(i):
-                print "prime: " + str(i)
-                largest = i
-    return largest
+            factors.append(i)
+    return factors
 
 def largestPrimeFactor(num):
-    largestLessThanSqrt = largestPrimeFactorLessThanSqrt(num)
-    print "largestLessThanSqrt: " + str(largestLessThanSqrt)
-    if (not isPrimeNum(largestLessThanSqrt)):
-        return num/largestLessThanSqrt
-    return largestLessThanSqrt
+    factors = factorsLessThanSqrt(num)
+    primeFactors = []
+    for i in xrange(len(factors)):
+        newFactor = num/factors[i]
+        if isPrimeNum(newFactor):
+            primeFactors.append(newFactor)
+        if isPrimeNum(factors[i]):
+            primeFactors.append(factors[i])
+
+    if len(primeFactors) > 0:
+        return primeFactors[len(primeFactors)-1]
+    else:
+        return -1
 
 if __name__ == "__main__":
-    print "largest prime factor: " + str(largestPrimeFactor(26))
     #print "largest prime factor: " + str(largestPrimeFactor(600851475143))
+    print "largest prime factor: " + str(largestPrimeFactor(12568441))
