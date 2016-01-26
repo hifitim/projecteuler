@@ -1,14 +1,12 @@
-def find_sum_digits(long_num, num_digits):
-    long_num = str(long_num)
+def find_sum_digits(num_array, num_digits):
     total_sum = 0
-    for i in xrange(len(long_num)):
-        total_sum += int(long_num[i])
+    for i in xrange(len(num_array)):
+        total_sum += int(num_array[i])
 
     return str(total_sum)[0:num_digits]
 
-
 if __name__ == '__main__':
-    nums = [ [ 0 for i in range(100) ] for j in range(50) ]
+    nums = [0 for i in range(100)]
     nums[0] = "37107287533902102798797998220837590246510135740250"
     nums[1] = "46376937677490009712648124896970078050417018260538"
     nums[2] = "74324986199524741059474233309513058123726617309629"
@@ -108,6 +106,6 @@ if __name__ == '__main__':
     nums[96] = "77158542502016545090413245809786882778948721859617"
     nums[97] = "72107838435069186155435662884062257473692284509516"
     nums[98] = "20849603980134001723930671666823555245252804609722"
-    nums[99] = "53503534226472524250874054075591789781264330331690")
+    nums[99] = "53503534226472524250874054075591789781264330331690"
 
-    print find_sum_digits(long_num, 10)
+    print find_sum_digits(nums, 10)
