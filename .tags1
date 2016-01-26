@@ -4,7 +4,5 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-math	C:\Users\davitim\Documents\projecteuler\prob12.py	/^import math$/;"	namespace	line:1
-factors_less_than_sqrt	C:\Users\davitim\Documents\projecteuler\prob12.py	/^def factors_less_than_sqrt(num):$/;"	function	line:3
-find_factors	C:\Users\davitim\Documents\projecteuler\prob12.py	/^def find_factors(num):$/;"	function	line:12
-find_triangle_divisible	C:\Users\davitim\Documents\projecteuler\prob12.py	/^def find_triangle_divisible(num_divisors):$/;"	function	line:19
+find_sum_digits	C:\Users\davitim\Documents\projecteuler\prob13.py	/^def find_sum_digits(long_num, num_digits):$/;"	function	line:1
+nums	C:\Users\davitim\Documents\projecteuler\prob13.py	/^    nums = [ [ 0 for i in range(100) ] for j in range(50) ]$/;"	variable	line:11
