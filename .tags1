@@ -4,4 +4,5 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-math	C:\Users\davitim\Documents\projecteuler\prob9.py	/^import math$/;"	namespace	line:1
+find_adjacent_matrix_product	C:\Users\davitim\Documents\projecteuler\prob11.py	/^def find_adjacent_matrix_product(matrix, distance):$/;"	function	line:1
+matrix	C:\Users\davitim\Documents\projecteuler\prob11.py	/^    matrix = [ [ 0 for i in range(20) ] for j in range(20) ]$/;"	variable	line:30
