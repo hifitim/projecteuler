@@ -5,6 +5,14 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
 total	C:\Users\davitim\Documents\projecteuler\prob1.py	/^    total = 0$/;"	variable	line:2
+math	C:\Users\davitim\Documents\projecteuler\prob10.py	/^import math$/;"	namespace	line:1
+is_prime_num	C:\Users\davitim\Documents\projecteuler\prob10.py	/^def is_prime_num(num):$/;"	function	line:3
+find_prime_sum_below	C:\Users\davitim\Documents\projecteuler\prob10.py	/^def find_prime_sum_below(num):$/;"	function	line:10
+find_adjacent_matrix_product	C:\Users\davitim\Documents\projecteuler\prob11.py	/^def find_adjacent_matrix_product(matrix, distance):$/;"	function	line:1
+matrix	C:\Users\davitim\Documents\projecteuler\prob11.py	/^    matrix = [ [ 0 for i in range(20) ] for j in range(20) ]$/;"	variable	line:30
+math	C:\Users\davitim\Documents\projecteuler\prob12.py	/^import math$/;"	namespace	line:1
+factors_less_than_sqrt	C:\Users\davitim\Documents\projecteuler\prob12.py	/^def factors_less_than_sqrt(num):$/;"	function	line:3
+find_factors	C:\Users\davitim\Documents\projecteuler\prob12.py	/^def find_factors(num):$/;"	function	line:12
 total	C:\Users\davitim\Documents\projecteuler\prob2.py	/^    total = 0$/;"	variable	line:2
 current	C:\Users\davitim\Documents\projecteuler\prob2.py	/^    current = 2$/;"	variable	line:3
 last	C:\Users\davitim\Documents\projecteuler\prob2.py	/^    last = 1$/;"	variable	line:4
@@ -14,3 +22,20 @@ math	C:\Users\davitim\Documents\projecteuler\prob3.py	/^import math$/;"	namespac
 is_prime_num	C:\Users\davitim\Documents\projecteuler\prob3.py	/^def is_prime_num(num):$/;"	function	line:3
 factors_less_than_sqrt	C:\Users\davitim\Documents\projecteuler\prob3.py	/^def factors_less_than_sqrt(num):$/;"	function	line:10
 largest_prime_factor	C:\Users\davitim\Documents\projecteuler\prob3.py	/^def largest_prime_factor(num):$/;"	function	line:19
+is_palindrome	C:\Users\davitim\Documents\projecteuler\prob4.py	/^def is_palindrome(num):$/;"	function	line:1
+find_largest_palindrome_product	C:\Users\davitim\Documents\projecteuler\prob4.py	/^def find_largest_palindrome_product(lo, hi):$/;"	function	line:11
+math	C:\Users\davitim\Documents\projecteuler\prob5.py	/^import math$/;"	namespace	line:1
+is_prime_num	C:\Users\davitim\Documents\projecteuler\prob5.py	/^def is_prime_num(num):$/;"	function	line:3
+factors_less_than_sqrt	C:\Users\davitim\Documents\projecteuler\prob5.py	/^def factors_less_than_sqrt(num):$/;"	function	line:10
+find_factors	C:\Users\davitim\Documents\projecteuler\prob5.py	/^def find_factors(num):$/;"	function	line:19
+evenly_divisible	C:\Users\davitim\Documents\projecteuler\prob5.py	/^def evenly_divisible(lo, hi):$/;"	function	line:25
+math	C:\Users\davitim\Documents\projecteuler\prob6.py	/^import math$/;"	namespace	line:1
+sum_of_squares	C:\Users\davitim\Documents\projecteuler\prob6.py	/^def sum_of_squares(lo, hi):$/;"	function	line:3
+square_of_sum	C:\Users\davitim\Documents\projecteuler\prob6.py	/^def square_of_sum(lo, hi):$/;"	function	line:9
+math	C:\Users\davitim\Documents\projecteuler\prob7.py	/^import math$/;"	namespace	line:1
+is_prime_num	C:\Users\davitim\Documents\projecteuler\prob7.py	/^def is_prime_num(num):$/;"	function	line:3
+find_prime	C:\Users\davitim\Documents\projecteuler\prob7.py	/^def find_prime(num):$/;"	function	line:10
+find_greatest_product	C:\Users\davitim\Documents\projecteuler\prob8.py	/^def find_greatest_product(num, num_digits):$/;"	function	line:1
+long_num	C:\Users\davitim\Documents\projecteuler\prob8.py	/^    long_num = ("73167176531330624919225119674426574742355349194934"$/;"	variable	line:13
+math	C:\Users\davitim\Documents\projecteuler\prob9.py	/^import math$/;"	namespace	line:1
+find_pythagorean_triplet	C:\Users\davitim\Documents\projecteuler\prob9.py	/^def find_pythagorean_triplet(num):    $/;"	function	line:3

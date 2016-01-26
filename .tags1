@@ -4,5 +4,7 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-find_adjacent_matrix_product	C:\Users\davitim\Documents\projecteuler\prob11.py	/^def find_adjacent_matrix_product(matrix, distance):$/;"	function	line:1
-matrix	C:\Users\davitim\Documents\projecteuler\prob11.py	/^    matrix = [ [ 0 for i in range(20) ] for j in range(20) ]$/;"	variable	line:30
+math	C:\Users\davitim\Documents\projecteuler\prob12.py	/^import math$/;"	namespace	line:1
+factors_less_than_sqrt	C:\Users\davitim\Documents\projecteuler\prob12.py	/^def factors_less_than_sqrt(num):$/;"	function	line:3
+find_factors	C:\Users\davitim\Documents\projecteuler\prob12.py	/^def find_factors(num):$/;"	function	line:12
+find_triangle_divisible	C:\Users\davitim\Documents\projecteuler\prob12.py	/^def find_triangle_divisible(num_divisors):$/;"	function	line:19
