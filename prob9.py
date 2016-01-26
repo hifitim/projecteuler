@@ -1,7 +1,6 @@
 import math
 
-def find_pythagorean_triplet(num):
-    #c = [[0 for x in xrange(num)] for x in xrange(num)]
+def find_pythagorean_triplet(num):    
     for a in xrange(1, num):
         for b in xrange(1, num):
             c = math.sqrt((a**2) + (b**2))
